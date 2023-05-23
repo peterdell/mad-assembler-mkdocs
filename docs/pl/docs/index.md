@@ -6,6 +6,8 @@ Najnowsze wydania dla systemu Windows są dostępne na [Github](https://github.c
 
 # Historia Zmian
 
+Przykłady kodu źródłowego dla zmian opisanych poniżej można znaleźć w [examples/mads_change_history.asm](https://github.com/tebe6502/Mad-Assembler/blob/master/examples/mads_change_history.asm).
+
 ## [2.1.5](https://github.com/tebe6502/Mad-Assembler/releases/tag/2.1.5)
 
 - poprawione działanie `.UNDEF`, `.IFDEF`
