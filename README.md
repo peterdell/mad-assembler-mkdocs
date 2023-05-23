@@ -11,6 +11,10 @@ To create an HTML version of the documentation in a folder, you can use the foll
 ```
 mkdocs build --help
 ```
+
+## Editing
+**Microsoft Visual Studio** supports editing ".md" file with syntax highlighting and live preview. Just open the folder "mad-assembler-mkdocs" folder.
+
 ## Formatting, Wording and Spelling Rules
 Formatting, wording and spelling rules are essential for a consistent document and good reading experience.
 - Command line options and their arguments are lower case as in the output on the commannt line, see [Usage](#/docs/en/docs/usage.md).
