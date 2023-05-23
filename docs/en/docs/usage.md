@@ -1,29 +1,29 @@
 #
 
 ## Przełączniki assemblera
-<!-- TODO: Use "options" instead of "switches", also adapt MADS  -->
-<!-- TODO: Use active form  -->
-```none
-Syntax: mads source [switches]
 
--b:address      Generate binary file at specific address
--c              Label case sensitivity
--d:label=value  Define a label
--f              CPU command at first column
--fv:value       Set raw binary fill byte to [value]
--hc[:filename]  Header file for CC65
--hm[:filename]  Header file for MADS
--i:path         Additional include directories
--l[:filename]   Generate listing
--m:filename     File with macro definition
--ml:value       margin-left property
+```none
+Syntax: mads source [options]
+
+-b:address      Generate binary file at specified address <address>
+-bc             Activate branch condition test
+-c              Activate case sensitivity for labels
+-d:label=value  Define a label and set it to <value>
+-f              Allow mnemonics at the first column of a line
+-fv:value       Set raw binary fill byte to <value>
+-hc[:filename]  Generate ".h" header file for CA65
+-hm[:filename]  Generate ".hea" header file for MADS
+-i:path         Use additional include directory, can be specified multiple times
+-l[:filename]   Generate ".lst" listing file
+-m:filename     Include macro definitions from file
+-ml:value       Set left margin for listing to <value>
 -o:filename     Set object file name
--p              Print fully qualified file names in listing and error messages
--s              Silent mode
--t[:filename]   List label table
--u              Warn of unused labels
+-p              Display fully qualified file names in listing and error messages
+-s              Suppress info messages
+-t[:filename]   Generate ".lab" labels file
+-u              Display warnings for unused labels
 -vu             Verify code inside unreferenced procedures
--x              Exclude unreferenced procedures
+-x              Exclude unreferenced procedures from code generation
 ```
 
 Domyślne nazwy plików to:
