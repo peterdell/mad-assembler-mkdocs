@@ -6,6 +6,8 @@ The latest releases for Windows is available on [Github](https://github.com/tebe
 
 # Change Log
 
+Source code examples for the changes described below can be found in [examples/mads_change_history.asm](https://github.com/tebe6502/Mad-Assembler/blob/master/examples/mads_change_history.asm).
+
 ## [2.1.5](https://github.com/tebe6502/Mad-Assembler/releases/tag/2.1.5)  <a name="2.1.5"></a> 
 
 - fixed implementation of `.UNDEF` and `.IFDEF`
